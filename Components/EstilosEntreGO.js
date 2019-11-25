@@ -26,6 +26,13 @@ export default StyleSheet.create({
         lineHeight: 22,
         color: '#282d64'
     },
+    textExpli: {
+        fontFamily: 'Manjari-Bold',
+        fontSize: 20,
+        lineHeight: 22,
+        color: '#282d64',
+        textAlign: 'center',
+    },
     button: {
         backgroundColor: '#282d64',
         paddingLeft: 50,
