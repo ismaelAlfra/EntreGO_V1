@@ -57,6 +57,16 @@ export default StyleSheet.create({
         margin: 20,
         marginTop: 0
     },
+    containerAuto: {
+        padding: 30,
+        backgroundColor: 'white',
+        width: 'auto',
+        height: 'auto',
+        borderBottomLeftRadius: 10,
+        borderBottomRightRadius: 10,
+        margin: 20,
+        marginTop: 0
+    },
     card: {
         padding: 15,
         width: 'auto',
@@ -65,7 +75,7 @@ export default StyleSheet.create({
         marginBottom: 30,
         borderRadius: 10
     },
-    title:{
+    title: {
         width: 'auto',
         height: 'auto',
         alignItems: 'center',
@@ -85,6 +95,42 @@ export default StyleSheet.create({
         color: '#fed438',
         width: 350,
         textAlign: 'center'
+    },
+    myInput: {
+        backgroundColor: 'white',
+        width: '70%',
+        height: 'auto',
+        borderRadius: 7,
+        fontFamily: 'Manjari-Regular'
+    },
+    myForm: {
+        backgroundColor: 'white',
+        width: '80%',
+        height: 'auto',
+        borderRadius: 7,
+        fontFamily: 'Manjari-Regular'
+    },
+    myDados: {
+        backgroundColor: 'white',
+        width: '100%',
+        borderRadius: 7,
+        fontFamily: 'Manjari-Regular',
+        borderWidth: 1.5,
+        borderColor: '#282d64',
+        padding: 15
+    },
+    textTop: {
+        margin: 10,
+        fontFamily: 'Manjari-Bold',
+        fontSize: 18,
+        lineHeight: 22,
+        color: '#282d64',
+        height: 20,
+    },
+    barra:{
+        width: '18%',
+        height: 10,
+        borderRadius: 10,
+        margin: 2
     }
-
 })

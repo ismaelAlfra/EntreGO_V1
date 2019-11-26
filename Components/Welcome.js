@@ -24,10 +24,11 @@ export default class Welcome extends Component {
                             ultricies ullamcorper id sed felis. Praesent nisl sapien,
                             viverra commodo sem at, pharetra auctor urna.
 
-                    </Text></View>
+                        </Text>
+                    </View>
                 </View>
-                <View style={{margin: 30}}>
-                     <MyButton>Avançar</MyButton>
+                <View style={{ margin: 30 }}>
+                    <MyButton>Avançar</MyButton>
                 </View>
 
                 <View style={{ flex: 3, flexDirection: 'column-reverse' }}>
