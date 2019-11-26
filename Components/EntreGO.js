@@ -30,7 +30,7 @@ export default class Home extends Component {
                     Aperte me
                 </MyButton>
                 <ScrollView horizontal={true} style={{}}>
-                    <View style={{ width: 280, margin: 10}}>
+                    <View style={{ width: 300, margin: 5}}>
                         <Title>Contai</Title>
                         <Container>
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
@@ -43,7 +43,7 @@ export default class Home extends Component {
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
                         </Container>
                     </View>
-                    <View style={{ width: 280, margin: 10}}>
+                    <View style={{ width: 300, margin: 5}}>
                         <Title>Contai</Title>
                         <Container>
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
@@ -56,7 +56,7 @@ export default class Home extends Component {
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
                         </Container>
                     </View>
-                    <View style={{ width: 280, margin: 10}}>
+                    <View style={{ width: 300, margin: 5}}>
                         <Title>Contai</Title>
                         <Container>
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
