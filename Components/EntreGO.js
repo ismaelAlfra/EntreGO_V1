@@ -16,20 +16,22 @@ export default class Home extends Component {
     render() {
         return (
             <View style={EstilosEntreGO.fundo}>
-                <View style={EstilosEntreGO.container}>
-                    <View style={EstilosEntreGO.foto}></View>
-                    <View style={{ maxWidth: 220 }}>
-                        <Text style={EstilosEntreGO.text}>Ismael Almeida Fragoso</Text>
-                        <Text style={EstilosEntreGO.text}>Lojas Alfra</Text>
-                        <Text style={EstilosEntreGO.text}>Rua Estudante Antônio Brito 828</Text>
+                <View style={{alignItems: 'center', width: '100%'}}>
+                    <View style={EstilosEntreGO.container}>
+                        <View style={EstilosEntreGO.foto}></View>
+                        <View style={{ maxWidth: 220 }}>
+                            <Text style={EstilosEntreGO.text}>Ismael Almeida Fragoso</Text>
+                            <Text style={EstilosEntreGO.text}>Lojas Alfra</Text>
+                            <Text style={EstilosEntreGO.text}>Rua Estudante Antônio Brito 828</Text>
+                        </View>
                     </View>
                 </View>
                 <MyButton>
                     Aperte me
                 </MyButton>
-                <ScrollView horizontal={true} style={{ width: 'auto' }}>
-
-                    <View style={{ width: '50%' }}><Title>Contai</Title>
+                <ScrollView horizontal={true} style={{}}>
+                    <View style={{ width: 280, margin: 10}}>
+                        <Title>Contai</Title>
                         <Container>
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
@@ -41,8 +43,33 @@ export default class Home extends Component {
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
                         </Container>
                     </View>
-                    <Image style={{ width: 50, height: 50, resizeMode: 'contain' }} 
-                            source={require('../assets/images/arranjo_01.png')}/>
+                    <View style={{ width: 280, margin: 10}}>
+                        <Title>Contai</Title>
+                        <Container>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                        </Container>
+                    </View>
+                    <View style={{ width: 280, margin: 10}}>
+                        <Title>Contai</Title>
+                        <Container>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                        </Container>
+                    </View>
+                   
                     {/* <View style={{width: 'auto', height: 'auto'}}>
                         <Title> Container</Title>
                         <Container titulo='kkkkk'>
