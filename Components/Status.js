@@ -133,7 +133,11 @@ export default class Status extends Component {
                         </View>
                     </Container>
                 </View>
-                <MyButton> Chat </MyButton>
+                <TouchableOpacity style={EstilosEntreGO.button} onPress={()=>this.props.navigation.navigate('Chat')}>
+                    <Text style={EstilosEntreGO.textButton}>
+                        Chat
+                    </Text>
+                </TouchableOpacity>
                 <View>
                     <Title> Dados da entrega</Title>
                     <View style={EstilosEntreGO.containerAuto}>

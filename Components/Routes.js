@@ -9,6 +9,7 @@ import { createStackNavigator} from 'react-navigation-stack';
 import ListarEntregas from './ListarEntregas';
 import Categoria from './Categoria';
 import StatusLojista from './StatusLojista';
+import Chat from './Chat';
 
 const Routes = createAppContainer(
     createStackNavigator({
@@ -21,6 +22,7 @@ const Routes = createAppContainer(
         Welcome: Welcome,
         ListarEntregas: ListarEntregas,
         Categoria: Categoria,
+        Chat: Chat,
     },
     {initialRouteName: 'Welcome'}
     )

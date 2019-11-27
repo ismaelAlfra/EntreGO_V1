@@ -9,15 +9,19 @@ import Title from './library/Title';
 
 
 export default class Chat extends Component {
-
+    static navigationOptions = {
+        headerStyle: {
+            display: 'none'
+        }
+    };
     render() {
         return (
             <View style={EstilosEntreGO.fundo}>
 
-                <View style={{ width: 420, height: 800, marginTop: 25, justifyContent: "center", alignContent: "center", alignSelf: "center" }}>
+                <View style={{ width: 420, height: '95%', marginTop: 25, justifyContent: "center", alignContent: "center", alignSelf: "center" }}>
                     <Title>Chat - Ana, Pedro e Julia</Title>
                     <Container >
-                        <ScrollView vertical={true} style={{ marginBottom: 30 }} >
+                        <ScrollView style={{ marginBottom: 30 }} >
 
 
                             <View style={EstilosEntreGO.mensagem_enviada} cliente='Fulano' encomenda='Caneta Azul'>
