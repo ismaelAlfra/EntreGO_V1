@@ -217,7 +217,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    00/00/0000
+                                    27/11/2019
                                 </Text>
                             </View>
                         </View>

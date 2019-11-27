@@ -5,7 +5,7 @@ import EstilosEntreGO from './EstilosEntreGO';
 import Container from './library/Container';
 import Title from './library/Title';
 import MyButton from './library/MyButton';
-import {ruan} from '../ruan';
+import { ruan } from '../ruan';
 
 export default class Status extends Component {
     static navigationOptions = {
@@ -16,8 +16,8 @@ export default class Status extends Component {
     render() {
         return (
             <ScrollView style={EstilosEntreGO.fundo}>
-                <View style={{ marginTop: 20, height: 'auto'}}>
-                    <Title>Camisa branca Polo</Title>
+                <View style={{ marginTop: 20, height: 'auto' }}>
+                    <Title>Abajur Azul 220v</Title>
                     <Container>
                         <View style={{ alignItems: 'center' }}>
                             <View style={{ flexDirection: 'row' }}>
@@ -125,8 +125,8 @@ export default class Status extends Component {
                             borderWidth: 1.5,
                             borderColor: '#282d64',
                         }}>
-                            <Image style={{width: 305, height: 296}}
-                            source={{uri:'https://maps.googleapis.com/maps/api/staticmap?center=-4.979756,-39.0565699&zoom=17&size=300x296&maptype=roadmap&markers=color:red%7Clabel:E%7C-4.979756,-39.056569&key='+ruan}}/>
+                            <Image style={{ width: 305, height: 296 }}
+                                source={{ uri: 'https://maps.googleapis.com/maps/api/staticmap?center=-4.979756,-39.0565699&zoom=17&size=300x296&maptype=roadmap&markers=color:red%7Clabel:E%7C-4.979756,-39.056569&key=' + ruan }} />
                         </View>
                     </Container>
                 </View>
@@ -139,7 +139,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Camisa branca Polo
+                                    Abajur Azul 220v
                                 </Text>
                             </View>
                         </View>
@@ -149,7 +149,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    30 x 20 x 7cm
+                                    20 x 20 x 20cm
                                 </Text>
                             </View>
                         </View>
@@ -159,7 +159,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    220g
+                                    400g
                                 </Text>
                             </View>
                         </View>
@@ -169,7 +169,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Pequena
+                                    Média
                                 </Text>
                             </View>
                         </View>
@@ -179,7 +179,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Camisa branca Polo tamanho pequeno
+                                    Abajur branco da marca Lwmmi com voltagem 220v
                                 </Text>
                             </View>
                         </View>
@@ -209,7 +209,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    00/00/0000
+                                    27/11/2019
                                 </Text>
                             </View>
                         </View>
@@ -223,12 +223,12 @@ export default class Status extends Component {
                                     fontSize: 35,
                                     color: '#282d64',
                                     textAlign: 'center'
-                                }}> kdcck</Text>
+                                }}> jsx87</Text>
                             </View>
                         </View>
                     </View>
                 </View>
-                <TouchableOpacity style={EstilosEntreGO.button} onPress={()=>this.props.navigation.navigate('Home')}>
+                <TouchableOpacity style={EstilosEntreGO.button} onPress={() => this.props.navigation.navigate('Home')}>
                     <Text style={EstilosEntreGO.textButton}>
                         Cancelar entrega
                     </Text>

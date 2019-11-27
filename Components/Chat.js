@@ -19,23 +19,23 @@ export default class Chat extends Component {
             <View style={EstilosEntreGO.fundo}>
 
                 <View style={{ width: 420, height: '95%', marginTop: 25, justifyContent: "center", alignContent: "center", alignSelf: "center" }}>
-                    <Title>Chat - Ana, Pedro e Julia</Title>
+                    <Title>Chat - Erisson, Ismael e Rute</Title>
                     <Container >
                         <ScrollView style={{ marginBottom: 30 }} >
 
 
                             <View style={EstilosEntreGO.mensagem_enviada} cliente='Fulano' encomenda='Caneta Azul'>
-                                <Text style={{ fontFamily: 'Manjari-Bold' }}> Ana Claudia</Text>
-                                <Text style={EstilosEntreGO.texto_mensagem} >Tem como levar a encomenda no seu colo durante a viagem? Ela é um pouco frágil  </Text>
+                                <Text style={{ fontFamily: 'Manjari-Bold' }}> Erisson Bezerra</Text>
+                                <Text style={EstilosEntreGO.texto_mensagem} >Tem como levar a encomenda no seu colo durante a viagem? Não quero nenhum dano na embalagem.  </Text>
                             </View>
 
                             <View style={EstilosEntreGO.mensagem_respondida} cliente='Fulano' encomenda='Caneta Azul'>
-                                <Text style={{ fontFamily: 'Manjari-Bold' }} > Pedro Correia </Text>
-                                <Text style={EstilosEntreGO.texto_mensagem} >Eu também prefiro, tenho medo que quebre </Text>
+                                <Text style={{ fontFamily: 'Manjari-Bold' }} > Rute HTA </Text>
+                                <Text style={EstilosEntreGO.texto_mensagem} >Eu também prefiro, é um presente, tome muito cuidado por favor. </Text>
                             </View>
 
                             <View style={EstilosEntreGO.mensagem_respondida} cliente='Fulano' encomenda='Caneta Azul'>
-                                <Text style={{ fontFamily: 'Manjari-Bold' }}> Julia Brandão </Text>
+                                <Text style={{ fontFamily: 'Manjari-Bold' }}> Ismael Almeida </Text>
                                 <Text style={EstilosEntreGO.texto_mensagem} >Claro, posso levar sim, vamos fechar negócio então? </Text>
                             </View>
 

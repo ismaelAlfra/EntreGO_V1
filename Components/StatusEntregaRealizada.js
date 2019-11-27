@@ -17,7 +17,7 @@ export default class Status extends Component {
         return (
             <ScrollView style={EstilosEntreGO.fundo}>
                 <View style={{ marginTop: 20, height: 'auto'}}>
-                    <Title>Camisa branca Polo</Title>
+                    <Title>Mochila Bagstyle</Title>
                     <Container>
                         <View style={{ alignItems: 'center' }}>
                             <View style={{ flexDirection: 'row' }}>
@@ -149,7 +149,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Camisa branca Polo
+                                    Mochila Bagstyle
                                 </Text>
                             </View>
                         </View>
@@ -159,7 +159,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    30 x 20 x 7cm
+                                    30 x 50 x 10cm
                                 </Text>
                             </View>
                         </View>
@@ -169,7 +169,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    220g
+                                    300g
                                 </Text>
                             </View>
                         </View>
@@ -179,7 +179,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Pequena
+                                    Grande
                                 </Text>
                             </View>
                         </View>
@@ -189,7 +189,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Camisa branca Polo tamanho pequeno
+                                    Mochila Bagstyle modelo cinza-couro, tamanho médio
                                 </Text>
                             </View>
                         </View>
@@ -209,7 +209,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    26/11/2019
+                                    10/10/2019
                                 </Text>
                             </View>
                         </View>
@@ -219,7 +219,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    00/00/0000
+                                    11/10/2019
                                 </Text>
                             </View>
                         </View>
@@ -233,7 +233,7 @@ export default class Status extends Component {
                                     fontSize: 35,
                                     color: '#282d64',
                                     textAlign: 'center'
-                                }}> kdcck</Text>
+                                }}> fff66</Text>
                             </View>
                         </View>
                     </View>
@@ -258,7 +258,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    27/11 às 21:00h
+                                    11/10 às 21:00h
                                 </Text>
                             </View>
                         </View>

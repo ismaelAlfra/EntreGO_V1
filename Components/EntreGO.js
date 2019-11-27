@@ -39,8 +39,8 @@ export default class Home extends Component {
                         <Title>Entregas em aberto</Title>
                         <Container>
                             <TouchableOpacity style={EstilosEntreGO.card} onPress={()=>this.props.navigation.navigate('Status')}>
-                                <Text style={EstilosEntreGO.text}>Encomenda: Camisa branca Polo</Text>
-                                <Text style={EstilosEntreGO.text}>Cliente: Julia Brandão</Text>
+                                <Text style={EstilosEntreGO.text}>Encomenda: Abajur Azul 220v</Text>
+                                <Text style={EstilosEntreGO.text}>Cliente: Rute HTA</Text>
                             </TouchableOpacity>
                         </Container>
                     </View>
@@ -49,7 +49,7 @@ export default class Home extends Component {
                         <Container>
                             <TouchableOpacity style={EstilosEntreGO.card} onPress={()=>this.props.navigation.navigate('StatusLojista')}>
                                 <Text style={EstilosEntreGO.text}>Encomenda: Camisa branca Polo</Text>
-                                <Text style={EstilosEntreGO.text}>Cliente: Julia Brandão</Text>
+                                <Text style={EstilosEntreGO.text}>Cliente: Rute HTA</Text>
                             </TouchableOpacity>
                         </Container>
                     </View>
@@ -57,8 +57,8 @@ export default class Home extends Component {
                         <Title>Entregas Concluidas</Title>
                         <Container>
                             <TouchableOpacity style={EstilosEntreGO.card} onPress={()=>this.props.navigation.navigate('StatusEntregaRealizada')}>
-                                <Text style={EstilosEntreGO.text}>Encomenda: Camisa branca Polo</Text>
-                                <Text style={EstilosEntreGO.text}>Cliente: Julia Brandão</Text>
+                                <Text style={EstilosEntreGO.text}>Encomenda: Mochila Bagstyle</Text>
+                                <Text style={EstilosEntreGO.text}>Cliente: Rute HTA</Text>
                             </TouchableOpacity>
                         </Container>
                     </View>

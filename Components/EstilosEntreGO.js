@@ -164,7 +164,7 @@ export default StyleSheet.create({
     },
     texto_mensagem:{
         fontFamily: 'Manjari-Bold',
-        fontSize: 20,
+        fontSize: 18,
         margin: 5
     },
     input_mensagem: {
