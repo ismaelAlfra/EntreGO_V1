@@ -8,6 +8,11 @@ import MyButton from './library/MyButton';
 import {ruan} from '../ruan';
 
 export default class Status extends Component {
+    static navigationOptions = {
+        headerStyle: {
+            display: 'none'
+        }
+    };
     render() {
         return (
             <ScrollView style={EstilosEntreGO.fundo}>

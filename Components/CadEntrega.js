@@ -5,6 +5,11 @@ import EstilosEntreGO from './EstilosEntreGO';
 import MyButton from './library/MyButton'
 
 export default class CadEntrega extends Component {
+    static navigationOptions = {
+        headerStyle: {
+            display: 'none'
+        }
+    };
     render() {
         return (
             <ScrollView style={EstilosEntreGO.fundo}>
@@ -29,9 +34,9 @@ export default class CadEntrega extends Component {
                 <View style={{ alignItems: 'center' }}>
                     <Picker style={{ width: "80%", fontFamily: 'Manjari-Bold' }}>
                         <Picker.Item label="Tipo de caixa" value="" />
-                        <Picker.Item label="Caixa 01" value="1" />
-                        <Picker.Item label="Caixa 02" value="2" />
-                        <Picker.Item label="Caixa 03" value="3" />
+                        <Picker.Item label="Pequena" value="1" />
+                        <Picker.Item label="Média" value="2" />
+                        <Picker.Item label="Grande" value="3" />
                     </Picker>
                 </View>
                 <View style={{ alignItems: 'center', margin: 10 }}>
@@ -93,9 +98,11 @@ export default class CadEntrega extends Component {
                         }}> kdcck</Text>
                     </View>
                 </View>
-                <MyButton>
-                    Avançar
-                </MyButton>
+                <TouchableOpacity style={EstilosEntreGO.button} onPress={()=>this.props.navigation.navigate('Home')}>
+                    <Text style={EstilosEntreGO.textButton}>
+                        Confirmar
+                    </Text>
+                </TouchableOpacity>
             </ScrollView>
         )
     }
