@@ -29,6 +29,7 @@ export default class Status extends Component {
                                     height: 10,
                                     borderRadius: 10,
                                     margin: 2,
+                                    backgroundColor: '#282d64',
                                     borderWidth: 1.5,
                                     borderColor: '#282d64',
                                 }}></View>
@@ -37,6 +38,7 @@ export default class Status extends Component {
                                     height: 10,
                                     borderRadius: 10,
                                     margin: 2,
+                                    backgroundColor: '#282d64',
                                     borderWidth: 1.5,
                                     borderColor: '#282d64',
                                 }}></View>
@@ -120,6 +122,8 @@ export default class Status extends Component {
                             borderWidth: 1.5,
                             borderColor: '#282d64',
                         }}>
+                            <Image style={{width: 305, height: 296}}
+                            source={{uri:'https://maps.googleapis.com/maps/api/staticmap?center=-4.979756,-39.0565699&zoom=17&size=300x296&maptype=roadmap&markers=color:red%7Clabel:E%7C-4.979756,-39.056569&key=AIzaSyCKhEGc8VwOPIc9iUtpnICYy5l_-6SWk74'}}/>
                         </View>
                     </Container>
                 </View>
@@ -133,7 +137,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Ismael
+                                    Camisa branca Polo
                                 </Text>
                             </View>
                         </View>
@@ -143,7 +147,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Ismael
+                                    30 x 20 x 7cm
                                 </Text>
                             </View>
                         </View>
@@ -153,7 +157,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Ismael
+                                    220g
                                 </Text>
                             </View>
                         </View>
@@ -163,7 +167,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Ismael
+                                    Pequena
                                 </Text>
                             </View>
                         </View>
@@ -173,7 +177,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Ismael
+                                    Camisa branca Polo tamanho pequeno
                                 </Text>
                             </View>
                         </View>
@@ -183,7 +187,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Ismael
+                                    Av. José de Freitas Queiroz, 5003, Quixadá - CE, Cantina da Márcia
                                 </Text>
                             </View>
                         </View>
@@ -193,7 +197,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Ismael
+                                    26/11/2019
                                 </Text>
                             </View>
                         </View>
@@ -203,7 +207,7 @@ export default class Status extends Component {
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>
-                                    Ismael
+                                    00/00/0000
                                 </Text>
                             </View>
                         </View>

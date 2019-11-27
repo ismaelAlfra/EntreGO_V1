@@ -7,7 +7,7 @@ export default class Logo extends Component {
         return (
             <View style={{ justifyContent: 'center', alignItems: 'center' }}>
                 <Image style={{ width: 270, height: 200, resizeMode: 'contain'}}
-                    source={require('/home/ismael/Área de Trabalho/EntreGO/assets/images/EntreGÔ_Azul.png')} />
+                    source={require('../../assets/images/EntreGO_Azul.png')} />
             </View>
         )
     }
