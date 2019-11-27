@@ -9,9 +9,10 @@ import Welcome from './Components/Welcome'
 import Login from './Components/Login'
 import CadEntrega from './Components/CadEntrega'
 import Status from './Components/Status'
+import StatusLogista from './Components/StatusLojista'
 import DetalhesEntregador from './Components/DetalhesEntregador'
 
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => DetalhesEntregador);
+AppRegistry.registerComponent(appName, () => StatusLogista);

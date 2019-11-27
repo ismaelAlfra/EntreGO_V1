@@ -19,9 +19,9 @@ export default class DetalhesEntregador extends Component {
                                 <Image style={{width: 80, height: 80, marginRight:20}}
                                 source={require('../assets/images/usericonpng.png')}/>
                                 <View style={{ maxWidth: 220 }}>
-                                    <Text style={EstilosEntreGO.text}>Ismael Almeida Fragoso</Text>
-                                    <Text style={EstilosEntreGO.text}>Lojas Alfra</Text>
-                                    <Text style={EstilosEntreGO.text}>Rua Estudante Antônio Brito 828</Text>
+                                    <Text style={EstilosEntreGO.text}>Ismael Alfra</Text>
+                                    <Text style={EstilosEntreGO.text}>(88) 9 9999-9999</Text>
+                                    <Text style={EstilosEntreGO.text}>Entregador experiente</Text>
                                 </View>
                             </View>
                         </View>
