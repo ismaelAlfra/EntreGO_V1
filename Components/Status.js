@@ -123,7 +123,7 @@ export default class Status extends Component {
                             borderColor: '#282d64',
                         }}>
                             <Image style={{width: 305, height: 296}}
-                            source={{uri:'https://maps.googleapis.com/maps/api/staticmap?center=-4.979756,-39.0565699&zoom=17&size=300x296&maptype=roadmap&markers=color:red%7Clabel:E%7C-4.979756,-39.056569&key=AIzaSyCKhEGc8VwOPIc9iUtpnICYy5l_-6SWk74'}}/>
+                            source={{uri:'https://maps.googleapis.com/maps/api/staticmap?center=-4.979756,-39.0565699&zoom=17&size=300x296&maptype=roadmap&markers=color:red%7Clabel:E%7C-4.979756,-39.056569&key'}}/>
                         </View>
                     </Container>
                 </View>
