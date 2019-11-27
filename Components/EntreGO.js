@@ -30,87 +30,35 @@ export default class Home extends Component {
                 </View>
                 <TouchableOpacity
                     style={EstilosEntreGO.button}
-                    onPress={()=>this.props.navigation.navigate('Login')}
+                    onPress={()=>this.props.navigation.navigate('CadEntrega')}
                 >
                     <Text style={EstilosEntreGO.textButton}>Solicitar entrega</Text>
                 </TouchableOpacity>
                 <ScrollView horizontal={true} style={{}}>
                     <View style={{ width: 300, margin: 5}}>
-                        <Title>Contai</Title>
+                        <Title>Entregas em aberto</Title>
                         <Container>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <TouchableOpacity style={EstilosEntreGO.card} onPress={()=>this.props.navigation.navigate('Status')}>
+                                <Text style={EstilosEntreGO.text}>Encomenda: Camisa branca Polo</Text>
+                                <Text style={EstilosEntreGO.text}>Cliente: Julia Brandão</Text>
+                            </TouchableOpacity>
                         </Container>
                     </View>
                     <View style={{ width: 300, margin: 5}}>
-                        <Title>Contai</Title>
+                        <Title>Entregas em andamento</Title>
                         <Container>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
+                            <TouchableOpacity style={EstilosEntreGO.card} onPress={()=>this.props.navigation.navigate('StatusLojista')}>
+                                <Text style={EstilosEntreGO.text}>Encomenda: Camisa branca Polo</Text>
+                                <Text style={EstilosEntreGO.text}>Cliente: Julia Brandão</Text>
+                            </TouchableOpacity>
                         </Container>
                     </View>
                     <View style={{ width: 300, margin: 5}}>
-                        <Title>Contai</Title>
+                        <Title>Entregas Concluidas</Title>
                         <Container>
                             <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
-                            <Card cliente='Fulano' encomenda='Caneta Azul'></Card>
                         </Container>
                     </View>
-                   
-                    {/* <View style={{width: 'auto', height: 'auto'}}>
-                        <Title> Container</Title>
-                        <Container titulo='kkkkk'>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card encomenda='aaa' cliente='qqq'></Card>
-                        </Container>
-                    </View>
-                    <View style={{width: 'auto', height: 'auto'}}>
-                        <Title> Container</Title>
-                        <Container titulo='kkkkk'>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card encomenda='aaa' cliente='qqq'></Card>
-                        </Container>
-                    </View>
-                    <View style={{width: 'auto', height: 'auto'}}>
-                        <Title> Container</Title>
-                        <Container titulo='kkkkk'>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card></Card>
-                            <Card encomenda='aaa' cliente='qqq'></Card>
-                        </Container>
-                    </View> */}
                 </ScrollView>
             </View>
         )

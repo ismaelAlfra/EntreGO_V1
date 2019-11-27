@@ -6,6 +6,11 @@ import Logo from './library/Logo';
 import MyButton from './library/MyButton';
 
 export default class Welcome extends Component {
+    static navigationOptions = {
+        headerStyle: {
+            display: 'none'
+        }
+    };
     render() {
         return (
             <View style={EstilosEntreGO.fundo}>
@@ -17,22 +22,19 @@ export default class Welcome extends Component {
                 <View style={{ height: 'auto', width: '100%', alignItems: 'center' }}>
                     <View style={{ width: '80%' }}>
                         <Text style={EstilosEntreGO.textExpli}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Donec enim dui, tempus non tortor et, cursus maximus magna.
-                            Vestibulum sollicitudin molestie urna id auctor.
-                            Morbi placerat purus non porta porta. Aliquam sed ex non felis
-                            ultricies ullamcorper id sed felis. Praesent nisl sapien,
-                            viverra commodo sem at, pharetra auctor urna.
+                        Olá, bem-vindo ao EntreGÔ, uma ferramenta que vai ajudar você logista a tornar suas entregas mais eficientes, seguras e práticas, que vai ajudar você viajante a ter uma renda extra a partir das suas viagens, e que vai ajudar você cliente a ter um acompanhamento melhor das suas encomendas.
 
                         </Text>
                     </View>
                 </View>
-                <View style={{ margin: 30 }}>
-                    <MyButton>Avançar</MyButton>
-                </View>
+                <TouchableOpacity style={EstilosEntreGO.button} onPress={()=>this.props.navigation.navigate('Categoria')}>
+                    <Text style={EstilosEntreGO.textButton}>
+                        Avançar
+                    </Text>
+                </TouchableOpacity>
 
                 <View style={{ flex: 3, flexDirection: 'column-reverse' }}>
-                    <Image style={{ width: 120, height: 120, resizeMode: 'contain', right: -275, bottom: 25 }}
+                    <Image style={{ width: 120, height: 120, resizeMode: 'contain', right: -295, bottom: 25 }}
                         source={require('../assets/images/arranjo_02.png')} />
                 </View>
             </View>

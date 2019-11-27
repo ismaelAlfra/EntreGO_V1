@@ -35,12 +35,14 @@ export default StyleSheet.create({
     },
     button: {
         backgroundColor: '#282d64',
-        paddingLeft: 50,
-        paddingRight: 50,
-        paddingTop: 10,
-        paddingBottom: 10,
+        width: '70%',
+        height: 50,
         borderRadius: 7,
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 15,
+        marginBottom: 15,
+        marginLeft: 63
     },
     textButton: {
         fontSize: 22,
