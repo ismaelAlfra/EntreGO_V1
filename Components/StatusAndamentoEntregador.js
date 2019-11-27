@@ -282,6 +282,11 @@ export default class Status extends Component {
                         </View>
                     </View>
                 </View>
+                <TouchableOpacity style={EstilosEntreGO.button} onPress={()=>this.props.navigation.navigate('HomeConsumidor')}>
+                    <Text style={EstilosEntreGO.textButton}>
+                        Finalizar entrega
+                    </Text>
+                </TouchableOpacity>
             </ScrollView>
         )
     }

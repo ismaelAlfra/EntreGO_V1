@@ -7,7 +7,7 @@ import Title from './library/Title';
 import MyButton from './library/MyButton';
 import Card from './library/Card';
 
-export default class ListarEntregas extends Component {
+export default class HomeConsumidor extends Component {
     static navigationOptions = {
         headerStyle: {
             display: 'none'
@@ -19,11 +19,10 @@ export default class ListarEntregas extends Component {
                 <View style={{alignItems: 'center', width: '100%'}}>
                     <View style={EstilosEntreGO.container}>
                         <Image style={{width: 80, height: 80, marginRight:20}}
-                        source={require('../assets/images/ismael.png')}/>
+                        source={require('../assets/images/Rute.png')}/>
                         <View style={{ maxWidth: 220 }}>
-                            <Text style={EstilosEntreGO.text}>Ismael Almeida Fragoso</Text>
-                                    <Text style={EstilosEntreGO.text}>(88) 9 9999-9999</Text>
-                            <Text style={EstilosEntreGO.text}>Entregador Experiente</Text>
+                            <Text style={EstilosEntreGO.text}>Rute HTA</Text>
+                            <Text style={EstilosEntreGO.text}>Av. José de Freitas Queiroz, 5003, Quixadá - CE</Text>
                         </View>
                     </View>
                 </View>
@@ -42,18 +41,9 @@ export default class ListarEntregas extends Component {
                 />
                 <ScrollView horizontal={true} style={{}}>
                     <View style={{ width: 300, margin: 5}}>
-                        <Title>Entregas em aberto</Title>
-                        <Container>
-                            <TouchableOpacity style={EstilosEntreGO.card} onPress={()=>this.props.navigation.navigate('StatusAbertaEntregador')}>
-                                <Text style={EstilosEntreGO.text}>Encomenda: Camisa branca Polo</Text>
-                                <Text style={EstilosEntreGO.text}>Cliente: Julia Brandão</Text>
-                            </TouchableOpacity>
-                        </Container>
-                    </View>
-                    <View style={{ width: 300, margin: 5}}>
                         <Title>Entregas em andamento</Title>
                         <Container>
-                            <TouchableOpacity style={EstilosEntreGO.card} onPress={()=>this.props.navigation.navigate('StatusAndamentoEntregador')}>
+                            <TouchableOpacity style={EstilosEntreGO.card} onPress={()=>this.props.navigation.navigate('StatusConsumidor')}>
                                 <Text style={EstilosEntreGO.text}>Encomenda: Camisa branca Polo</Text>
                                 <Text style={EstilosEntreGO.text}>Cliente: Julia Brandão</Text>
                             </TouchableOpacity>

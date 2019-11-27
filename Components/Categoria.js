@@ -29,9 +29,9 @@ export default class Categoria extends Component {
                         Emtregador
                     </Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={EstilosEntreGO.button}>
+                <TouchableOpacity style={EstilosEntreGO.button} onPress={()=>this.props.navigation.navigate('HomeConsumidor')}>
                     <Text style={EstilosEntreGO.textButton}>
-                        Cliente
+                        Consumidor
                     </Text>
                 </TouchableOpacity>
 

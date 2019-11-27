@@ -53,6 +53,7 @@ export default class Status extends Component {
                                     height: 10,
                                     borderRadius: 10,
                                     margin: 2,
+                                    backgroundColor: '#282d64',
                                     borderWidth: 1.5,
                                     borderColor: '#282d64',
                                 }}></View>
@@ -61,6 +62,7 @@ export default class Status extends Component {
                                     height: 10,
                                     borderRadius: 10,
                                     margin: 2,
+                                    backgroundColor: '#282d64',
                                     borderWidth: 1.5,
                                     borderColor: '#282d64',
                                 }}></View>
@@ -250,29 +252,9 @@ export default class Status extends Component {
                                 </View>
                             </View>
                         </View>
-                        <View style={{ alignItems: 'center', marginTop: 30 }}>
+                        <View style={{ alignItems: 'center', marginTop: 20 }}>
                             <View style={{ width: '100%' }}>
-                                <Text style={EstilosEntreGO.textTop}>Meio de transporte utilizado</Text>
-                            </View>
-                            <View style={EstilosEntreGO.myDados}>
-                                <Text>
-                                    Ônibus
-                                </Text>
-                            </View>
-                        </View>
-                        <View style={{ alignItems: 'center', marginTop: 0 }}>
-                            <View style={{ width: '100%' }}>
-                                <Text style={EstilosEntreGO.textTop}>Local de transporte da entrega</Text>
-                            </View>
-                            <View style={EstilosEntreGO.myDados}>
-                                <Text>
-                                    Mochila
-                                </Text>
-                            </View>
-                        </View>
-                        <View style={{ alignItems: 'center', marginTop: 0 }}>
-                            <View style={{ width: '100%' }}>
-                                <Text style={EstilosEntreGO.textTop}>Chega no destino</Text>
+                                <Text style={EstilosEntreGO.textTop}>Data de entrega finalizada</Text>
                             </View>
                             <View style={EstilosEntreGO.myDados}>
                                 <Text>

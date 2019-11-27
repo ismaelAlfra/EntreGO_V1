@@ -26,7 +26,6 @@ export default class Status extends Component {
                                     height: 10,
                                     borderRadius: 10,
                                     margin: 2,
-                                    backgroundColor: '#282d64',
                                     borderWidth: 1.5,
                                     borderColor: '#282d64',
                                 }}></View>
@@ -35,7 +34,6 @@ export default class Status extends Component {
                                     height: 10,
                                     borderRadius: 10,
                                     margin: 2,
-                                    backgroundColor: '#282d64',
                                     borderWidth: 1.5,
                                     borderColor: '#282d64',
                                 }}></View>
@@ -44,7 +42,6 @@ export default class Status extends Component {
                                     height: 10,
                                     borderRadius: 10,
                                     margin: 2,
-                                    backgroundColor: '#282d64',
                                     borderWidth: 1.5,
                                     borderColor: '#282d64',
                                 }}></View>
@@ -133,11 +130,6 @@ export default class Status extends Component {
                         </View>
                     </Container>
                 </View>
-                <TouchableOpacity style={EstilosEntreGO.button} onPress={()=>this.props.navigation.navigate('Chat')}>
-                    <Text style={EstilosEntreGO.textButton}>
-                        Chat
-                    </Text>
-                </TouchableOpacity>
                 <View>
                     <Title> Dados da entrega</Title>
                     <View style={EstilosEntreGO.containerAuto}>
@@ -236,6 +228,11 @@ export default class Status extends Component {
                         </View>
                     </View>
                 </View>
+                <TouchableOpacity style={EstilosEntreGO.button} onPress={()=>this.props.navigation.navigate('Home')}>
+                    <Text style={EstilosEntreGO.textButton}>
+                        Cancelar entrega
+                    </Text>
+                </TouchableOpacity>
             </ScrollView>
         )
     }
