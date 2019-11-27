@@ -15,7 +15,8 @@ const Routes = createAppContainer(
         Status: Status,
         Welcome: Welcome,
     },
-    {initialRouteName: 'Home'})
+    {initialRouteName: 'Home'}
+    )
 );
 
 export default Routes;

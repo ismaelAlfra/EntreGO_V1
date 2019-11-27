@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 import { ScrollView, View, TouchableOpacity, Text, Image } from 'react-native';
 import EstilosEntreGO from './EstilosEntreGO';
 import MyButton from './library/MyButton';
@@ -18,7 +19,8 @@ export default class Home extends Component {
             <View style={EstilosEntreGO.fundo}>
                 <View style={{alignItems: 'center', width: '100%'}}>
                     <View style={EstilosEntreGO.container}>
-                        <View style={EstilosEntreGO.foto}></View>
+                        <Image style={{width: 80, height: 80, marginRight:20}}
+                        source={require('../assets/images/usericonpng.png')}/>
                         <View style={{ maxWidth: 220 }}>
                             <Text style={EstilosEntreGO.text}>Ismael Almeida Fragoso</Text>
                             <Text style={EstilosEntreGO.text}>Lojas Alfra</Text>
@@ -26,9 +28,12 @@ export default class Home extends Component {
                         </View>
                     </View>
                 </View>
-                <MyButton>
-                    Aperte me
-                </MyButton>
+                <TouchableOpacity
+                    style={EstilosEntreGO.button}
+                    onPress={()=>this.props.navigation.navigate('Login')}
+                >
+                    <Text style={EstilosEntreGO.textButton}>Solicitar entrega</Text>
+                </TouchableOpacity>
                 <ScrollView horizontal={true} style={{}}>
                     <View style={{ width: 300, margin: 5}}>
                         <Title>Contai</Title>
