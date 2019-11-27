@@ -11,4 +11,4 @@ import CadEntrega from './Components/CadEntrega'
 import Status from './Components/Status'
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => Home);
+AppRegistry.registerComponent(appName, () => Status);
